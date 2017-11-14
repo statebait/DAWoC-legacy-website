@@ -1,11 +1,15 @@
 .parallax-container{
-  height: 670px;
+  height: 740px;
 }
 .opaci {
   opacity: 0.9;
   position: relative;
   width: 100%;
   height: auto;
+}
+
+.posi3 {
+  padding-top: 50px;
 }
 
 .posi2 {
