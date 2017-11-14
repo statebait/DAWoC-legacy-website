@@ -1,10 +1,22 @@
-.navAd {
-  opacity: 0.9;
+.parallax-container{
+  height: 670px;
+}
+.opaci {
+  opacity: 0.7;
+  position: relative;
+  width: 100%;
+  height: auto;
 }
 
-.navAd:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
+.posi2 {
+  text-decoration: bold;
+  font-size: 25px;
+}
+
+.posi {
+  padding-top: 150px;
+  text-decoration: bold;
+  font-size: 110px;
 }
 
 .timeline {
