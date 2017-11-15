@@ -5,8 +5,8 @@ $(document).ready(function(){
 var canvasDots = function() {
   var canvas = document.querySelector('canvas'),
       ctx = canvas.getContext('2d'),
-      colorDot = 'blue',
-      color = 'blue';
+      colorDot = 'white',
+      color = 'white';
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
   canvas.style.display = 'block';
