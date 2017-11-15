@@ -1,16 +1,46 @@
+#paraM {
+  height: 500px;
+}
+
+#google_plus {
+  height: 35px;
+  width: 35px;
+}
+
+#google_plus_parent {
+  padding-left: 20px;
+}
+
+#twitter {
+  height: 45px;
+  width: 45px;
+}
+
+#twitter_parent {
+  padding-left: 10px;
+}
+
+#timelineicon {
+  padding-left: 485px;
+}
+
+.fire {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .parallax-container{
   height: 740px;
 }
 
 .opaci {
-  opacity: 0.9;
+  opacity: 0.85;
   position: relative;
   width: 100%;
-  height: auto;
 }
 
 .posi4 {
-  padding-top: 200px;
+  padding-top: 150px;
   text-decoration: bold;
   font-size: 110px;
   text-shadow: 1px 1px 4px #212121;
@@ -95,7 +125,6 @@
   position: absolute;
   width: 40px;
   height: 40px;
-  background: #d2d2d2;
   top: calc(50% - 20px);
   right: calc(50% - 20px);
   border-radius: 50%;

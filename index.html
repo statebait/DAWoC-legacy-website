@@ -23,7 +23,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#timeline">Timeline</a></li>
             <li><a href="register.html">Register</a></li>
-            <li><a href="badges.html">Guidelines</a></li>
+            <li><a href="guidelines.html">Guidelines</a></li>
           </ul>
         </div>
       </nav>
@@ -33,7 +33,7 @@
       DA-IICT Winter of Code
     </p>
     <p class="center white-text posi3">
-          organised by Google Developer Student Club DA-IICT
+      organised by Google Developer Student Club DA-IICT
     </p>
     <div class="parallax"><img src="images/parallax1.jpg" class="opaci">
     </div>
@@ -41,170 +41,184 @@
 
 
   <div class="section blue-grey darken-4">
-    <canvas></canvas>
+    <canvas class="hide-on-small-only"></canvas>
     <div class="row container">
       <h2 class="header center blue-text text-accent-4">About</h2>
-      <p class="center white-text text-lighten-3 container posi5">DAWoC is a month long programme exculsively for students of DA-IICT who are new to open source software development.to get started with open source contributions.
+      <p class="center white-text text-lighten-3 container posi5">DAWoC is a month long programme exculsively for students of DA-IICT who are new to open source software development to get started with open source contributions.
         The program encourages students to get engaged with open source and also additionally prepares them for a lot of open source programs, like Google Summer of Code aka GSoC and many more.</p>
       </div>
     </div>
-<div class="parallax-container">
-  <h1 id="#open" class="header white-text center animated flipInY posi4">Open Source FTW!</h1>
-  <div class="parallax"><img src="images/parallax2.jpg" class="opaci">
+
+    <div id="paraM" class="hide-on-small-only parallax-container">
+      <h1 id="#open" class="header white-text center animated flipInY posi4">Open Source For The Win!</h1>
+      <div class="parallax"><img src="images/parallax2.jpg" class="opaci">
+      </div>
+    </div>
+
   </div>
-</div>
 
-</div>
+  <!-- TimeLine -->
+  <div id="timeline" class="section blue-grey darken-4">
+    <div class="container">
 
-    <!-- TimeLine -->
-    <div id="timeline" class="section blue-grey darken-4">
-      <div class="container">
+      <div class="fire">
+        <h2 class="center-align blue-text text-accent-4">Timeline</h2>
+        <i id="timelineicon" class="white-text large material-icons">timeline</i>
+      </div>
 
-        <h2 class="white-text center blue-text text-accent-4">Timeline</h2>
-
-        <div class="timeline">
-          <div class="timeline-event">
-            <div class="card blue accent-4 timeline-content">
-              <div class="card-content">
-                <span class="card-title activator white-text text-darken-4">DAWoC is Announced!<i class="material-icons right">more_vert</i></span>
-                <p class="white-text">20th November</p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title"><i class="material-icons right">close</i></span>
-                <p >Here is some more information about this product that is only revealed once clicked on.</p>
-              </div>
+      <div class="timeline">
+        <div id="introduction" class="timeline-event">
+          <div class="card blue accent-4 timeline-content">
+            <div class="card-content">
+              <span class="card-title activator white-text text-darken-4">DAWoC is Announced!<i class="material-icons right">more_vert</i></span>
+              <p class="white-text">20th November</p>
             </div>
-            <div class="timeline-badge blue accent-4 white-text"><i class="material-icons">ac_unit</i></div>
-          </div>
-
-
-          <div class="timeline-event">
-            <div class="card blue accent-4 timeline-content">
-              <div class="card-content">
-                <span class="card-title activator white-text text-darken-4">Call for Mentors<i class="material-icons right">more_vert</i></span>
-                <p class="white-text">5th - 29th December</p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title"><i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-              </div>
+            <div class="card-reveal">
+              <span class="card-title"><i class="material-icons right">close</i></span>
+              <p >Here is some more information about this product that is only revealed once clicked on.</p>
             </div>
-            <div class="timeline-badge blue accent-4 white-text"><i class="material-icons">person_outline</i></div>
           </div>
+          <div class="timeline-badge white-text"><i class="material-icons">ac_unit</i></div>
+        </div>
 
-          <div class="timeline-event">
-            <div class="card blue accent-4 timeline-content">
-              <div class="card-content">
-                <span class="card-title activator white-text text-darken-4">Finalizing of Mentors & Projects<i class="material-icons right">more_vert</i></span>
-                <p class="white-text">30th December - 4th January</p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title"><i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-              </div>
+
+        <div class="timeline-event">
+          <div class="card blue accent-4 timeline-content">
+            <div class="card-content">
+              <span class="card-title activator white-text text-darken-4">Call for Mentors<i class="material-icons right">more_vert</i></span>
+              <p class="white-text">5th - 29th December</p>
             </div>
-            <div class="timeline-badge blue accent-4 white-text"><i class="material-icons">assignment</i></div>
-          </div>
-
-          <div class="timeline-event">
-            <div class="card blue accent-4 timeline-content">
-              <div class="card-content">
-                <span class="card-title activator white-text text-darken-4">Student Registration Begins<i class="material-icons right">more_vert</i></span>
-                <p class="white-text">4th - 11th January</p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title"><i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-              </div>
+            <div class="card-reveal">
+              <span class="card-title"><i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
             </div>
-            <div class="timeline-badge blue accent-4 white-text"><i class="material-icons">supervisor_account</i></div>
           </div>
+          <div class="timeline-badge white-text"><i class="material-icons">person_outline</i></div>
+        </div>
 
-          <div class="timeline-event">
-            <div class="card blue accent-4 timeline-content">
-              <div class="card-content">
-                <span class="card-title activator white-text text-darken-4">Let the Coding Begin<i class="material-icons right">more_vert</i></span>
-                <p class="white-text">12th January</p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title"><i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-              </div>
+        <div class="timeline-event">
+          <div class="card blue accent-4 timeline-content">
+            <div class="card-content">
+              <span class="card-title activator white-text text-darken-4">Finalizing of Mentors & Projects<i class="material-icons right">more_vert</i></span>
+              <p class="white-text">30th December - 4th January</p>
             </div>
-            <div class="timeline-badge blue accent-4 white-text"><i class="material-icons">layers</i></div>
-          </div>
-
-          <div class="timeline-event">
-            <div class="card blue accent-4 timeline-content">
-              <div class="card-content">
-                <span class="card-title activator white-text text-darken-4">End of the coding phase<i class="material-icons right">more_vert</i></span>
-                <p class="white-text">15th February</p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title"><i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-              </div>
+            <div class="card-reveal">
+              <span class="card-title"><i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
             </div>
-            <div class="timeline-badge blue accent-4 white-text"><i class="material-icons">layers_clear</i></div>
           </div>
+          <div class="timeline-badge white-text"><i class="material-icons">assignment</i></div>
+        </div>
 
-          <div class="timeline-event">
-            <div class="card blue accent-4 timeline-content">
-              <div class="card-content">
-                <span class="card-title activator white-text text-darken-4">Evaluation period<i class="material-icons right">more_vert</i></span>
-                <p class="white-text">16th - 19th February</p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title"><i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-              </div>
+        <div class="timeline-event">
+          <div class="card blue accent-4 timeline-content">
+            <div class="card-content">
+              <span class="card-title activator white-text text-darken-4">Student Registration Begins<i class="material-icons right">more_vert</i></span>
+              <p class="white-text">4th - 11th January</p>
             </div>
-            <div class="timeline-badge blue accent-4 white-text"><i class="material-icons">assessment</i></div>
-          </div>
-
-          <div class="timeline-event">
-            <div class="card blue accent-4 timeline-content">
-              <div class="card-content">
-                <span class="card-title activator white-text text-darken-4">Results!<i class="material-icons right">more_vert</i></span>
-                <p class="white-text">20th February</p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title"><i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-              </div>
+            <div class="card-reveal">
+              <span class="card-title"><i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
             </div>
-            <div class="timeline-badge blue accent-4 white-text"><i class="material-icons">card_giftcard</i></div>
           </div>
+          <div class="timeline-badge white-text"><i class="material-icons">supervisor_account</i></div>
+        </div>
 
+        <div class="timeline-event">
+          <div class="card blue accent-4 timeline-content">
+            <div class="card-content">
+              <span class="card-title activator white-text text-darken-4">Let the Coding Begin<i class="material-icons right">more_vert</i></span>
+              <p class="white-text">12th January</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title"><i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+          <div class="timeline-badge white-text"><i class="material-icons">layers</i></div>
+        </div>
+
+        <div class="timeline-event">
+          <div class="card blue accent-4 timeline-content">
+            <div class="card-content">
+              <span class="card-title activator white-text text-darken-4">End of the coding phase<i class="material-icons right">more_vert</i></span>
+              <p class="white-text">15th February</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title"><i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+          <div class="timeline-badge white-text"><i class="material-icons">layers_clear</i></div>
+        </div>
+
+        <div class="timeline-event">
+          <div class="card blue accent-4 timeline-content">
+            <div class="card-content">
+              <span class="card-title activator white-text text-darken-4">Evaluation period<i class="material-icons right">more_vert</i></span>
+              <p class="white-text">16th - 19th February</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title"><i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+          <div class="timeline-badge white-text"><i class="material-icons">assessment</i></div>
+        </div>
+
+        <div class="timeline-event">
+          <div class="card blue accent-4 timeline-content">
+            <div class="card-content">
+              <span class="card-title activator white-text text-darken-4">Results!<i class="material-icons right">more_vert</i></span>
+              <p class="white-text">20th February</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title"><i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+          <div class="timeline-badge white-text"><i class="material-icons">card_giftcard</i></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--Timeline Ends Here-->
+
+  <!-- PreFooter Content -->
+  <div class="section blue-grey darken-4">
+    <div class="container">
+      <a href="nothing"></a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer blue accent-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Google Developer Student Club</h5>
+          <p class="grey-text text-lighten-4">A Club full of enthusiastic developers.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <a href="https://github.com/google-developers-group-daiict"><img src="images/GitHub-Mark-32px.png"/></a>
+          <a id="google_plus_parent" href="https://plus.google.com/+Gdgdaiict"><img id="google_plus" src="images/google-plus.png"/></a>
+          <a id="twitter_parent" href="https://twitter.com/GDGDAIICT"><img id="twitter" src="images/Twitter_Logo_WhiteOnImage.png"/></a>
         </div>
       </div>
     </div>
-    <!--Timeline Ends Here-->
-
-    <!-- Footer -->
-    <footer class="page-footer blue accent-4">
+    <div class="footer-copyright">
       <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Google Developer Student Club</h5>
-            <p class="grey-text text-lighten-4">A Club full of enthusiastic developers.</p>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
-            <a href="https://github.com/google-developers-group-daiict"><img src="images/GitHub-Mark-32px.png"/></a>
-          </div>
-        </div>
+        © 2017 DAWoC
       </div>
-      <div class="footer-copyright">
-        <div class="container">
-          © 2017 DAWoC
-        </div>
-      </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
-  </html>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/effect.js"></script>
+</body>
+</html>
