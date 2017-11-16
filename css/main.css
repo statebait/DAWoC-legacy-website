@@ -35,8 +35,8 @@
     position: absolute;
     width: 450px;
     height: 450px;
-    opacity: 0.35;
-    background-color: black;
+    opacity: 0.5;
+    background-color: #212121;
     margin-top: 80px;
     margin-left: 537px;
     border-radius: 50%;
