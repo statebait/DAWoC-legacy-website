@@ -1,3 +1,47 @@
+#cool_effect {
+  width: 100%;
+  height: 740px;
+}
+
+#icon_row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#tshirt_icon {
+  height: 90px;
+  width: 100px;
+  margin-left: 30px;
+}
+
+#adb_icon {
+  padding-left: 280px;
+}
+
+#group_icon {
+  padding-left: 40px;
+}
+
+#gift_icon {
+  padding-left: 40px;
+}
+
+#mid_image_2 {
+  position: absolute;
+  width: 100%;
+}
+
+#main_box {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    opacity: 0.35;
+    background-color: black;
+    margin-top: 80px;
+    margin-left: 537px;
+    border-radius: 50%;
+}
+
 #paraM {
   height: 500px;
 }
@@ -20,13 +64,22 @@
   padding-left: 10px;
 }
 
+
 #timelineicon {
   padding-left: 485px;
 }
 
+.blackbox {
+  position: absolute;
+  width: auto;
+  height: 500px;
+  opacity: 0.30;
+  background-color: black;
+}
+
 .fire {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .parallax-container{
@@ -42,7 +95,7 @@
 .posi4 {
   padding-top: 150px;
   text-decoration: bold;
-  font-size: 110px;
+  font-size: 90px;
   text-shadow: 1px 1px 4px #212121;
 }
 

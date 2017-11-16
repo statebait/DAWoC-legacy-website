@@ -14,48 +14,76 @@
 </head>
 
 <body>
-
+  <canvas id="cool_effect"></canvas>
   <div id="home" class="parallax-container">
     <div class="navbar-fixed">
       <nav class="transparent z-depth-0">
         <div class="nav-wrapper">
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#timeline">Timeline</a></li>
-            <li><a href="register.html">Register</a></li>
-            <li><a href="guidelines.html">Guidelines</a></li>
+            <li><a class="animated bounceIn" href="#home">Home</a></li>
+            <li><a class="animated bounceInRight" href="#timeline">Timeline</a></li>
+            <li><a class="animated bounceInLeft" href="register.html">Register</a></li>
+            <li><a class="animated bounceInDown" href="guidelines.html">Guidelines</a></li>
           </ul>
         </div>
       </nav>
     </div>
-    <h1 class="header white-text center animated flipInY posi">DAWoC</h1>
-    <p class="center white-text posi2">
+
+    <!--Translucent Circle -->
+    <div id="main_box" class="animated pulse"></div>
+
+    <h1 class="header white-text center animated zoomIn posi">DAWoC</h1>
+    <p class="center white-text animated slideInUp posi2">
       DA-IICT Winter of Code
     </p>
-    <p class="center white-text posi3">
+    <p class="center white-text animated slideInUp posi3">
       organised by Google Developer Student Club DA-IICT
     </p>
+
     <div class="parallax"><img src="images/parallax1.jpg" class="opaci">
     </div>
   </div>
 
-
+<!--About -->
   <div class="section blue-grey darken-4">
-    <canvas></canvas>
     <div class="row container">
       <h2 class="header center blue-text text-accent-4">About</h2>
-      <p class="center white-text text-lighten-3 container posi5">DAWoC is a month long programme exculsively for students of DA-IICT who are new to open source software development to get started with open source contributions.
+      <p class="center white-text text-lighten-3 container posi5">DAWoC is a month long programme exculsively for students of DA-IICT where students contribute to a variety of Open-Source Projects under the guidance of experienced Mentors.
         The program encourages students to get engaged with open source and also additionally prepares them for a lot of open source programs, like Google Summer of Code aka GSoC and many more.</p>
       </div>
     </div>
 
+<!--Mid Image -->
     <div id="paraM" class="hide-on-small-only parallax-container">
       <h1 id="#open" class="header white-text center posi4">Open Source For The Win!</h1>
       <div class="parallax"><img src="images/parallax2.jpg" class="opaci">
       </div>
     </div>
 
+<!--Why? -->
+  <div class="section blue-grey darken-4">
+    <div class="row container">
+
+      <h2 class="header center blue-text text-accent-4">Why Participate?</h2>
+      <div id="icon_row">
+        <i id="adb_icon" class="white-text large material-icons">adb</i>
+        <img id="tshirt_icon" src="images/tshirt.png" />
+        <i id="group_icon" class="white-text large material-icons">group</i>
+        <i id="gift_icon" class="white-text large material-icons">card_giftcard</i>
+      </div>
+      <p class="center white-text text-lighten-3 container posi5">Whether you are a mentor or a student, participating in DAWoC only proves beneficial to you.
+        As a student you will be able to learn alot of new open-source technologies and teach you how to work on software development projects in a bigger team.
+        It will also provide the students a gateway to the enormous open source community.
+        As for the Mentors they will be able to get alot of new additions to their projects.
+      And Finally there will be them T-Shirts and goodies which everyone looks forward to!</p>
+      </div>
+    </div>
+
+<!--Mid Image 2 -->
+<div id="paraM" class="parallax-container">
+  <div class="parallax"><img src="images/parallax3.jpg" id="mid_image_2">
   </div>
+</div>
 
   <!-- TimeLine -->
   <div id="timeline" class="section blue-grey darken-4">
