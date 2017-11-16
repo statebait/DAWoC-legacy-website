@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>Home</title>
@@ -9,13 +10,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link type="text/css" rel="stylesheet" href="css/main.css" />
   <link type="text/css" rel="stylesheet" href="css/animate.css" />
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Mobile Optimisation -->
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+
 </head>
 
 <body>
+
   <canvas id="cool_effect"></canvas>
+
   <div id="home" class="parallax-container">
+
     <div class="navbar-fixed">
       <nav class="transparent z-depth-0">
         <div class="nav-wrapper">
@@ -29,69 +35,63 @@
       </nav>
     </div>
 
-    <!--Translucent Circle -->
-    <div id="main_box" class="animated zoomIn"></div>
+    <!--Translucent Circle (Not Working....Pls Halp)
+  <div id="main_box" class=" animated zoomIn"></div> -->
 
-    <h1 class="header white-text center animated zoomIn posi">DAWoC</h1>
-    <p class="center white-text animated slideInUp posi2">
-      DA-IICT Winter of Code
-    </p>
-    <p class="center white-text animated slideInUp posi3">
-      organised by Google Developer Student Club DA-IICT
-    </p>
+    <h1 class="center header white-text animated zoomIn posi">DAWoC</h1>
+    <p id="posi2" class="center-align white-text animated slideInUp">DA-IICT Winter of Code</p>
+    <p id="posi3" class="center-align white-text animated slideInUp">organised by Google Developer Student Club DA-IICT</p>
 
-    <div class="parallax"><img src="images/parallax1.jpg" class="opaci">
-    </div>
+    <div class="parallax"><img src="images/parallax1.jpg" class="opaci"></div>
+
   </div>
 
-<!--About -->
+  <!--About -->
   <div class="section blue-grey darken-4">
     <div class="row container">
       <h2 class="header center blue-text text-accent-4">About</h2>
-      <p class="center white-text text-lighten-3 container posi5">DAWoC is a month long programme exculsively for students of DA-IICT where students contribute to a variety of Open-Source Projects under the guidance of experienced Mentors.
-        The program encourages students to get engaged with open source and also additionally prepares them for a lot of open source programs, like Google Summer of Code aka GSoC and many more.</p>
-      </div>
+      <p class="center white-text text-lighten-3 container posi5">DAWoC is a month long programme exculsively for students of DA-IICT where students contribute to a variety of Open-Source Projects under the guidance of experienced Mentors. The program encourages students to get engaged with open source and also
+        additionally prepares them for a lot of open source programs, like Google Summer of Code aka GSoC and many more.</p>
     </div>
+  </div>
 
-<!--Mid Image -->
-    <div id="paraM" class="hide-on-small-only parallax-container">
-      <h1 id="#open" class="header white-text center posi4">Open Source For The Win!</h1>
-      <div class="parallax"><img src="images/parallax2.jpg" class="opaci">
-      </div>
+  <!--Mid Image -->
+  <div id="paraM" class="hide-on-small-only parallax-container">
+    <h1 id="#open" class="header white-text center posi4">Open Source For The Win!</h1>
+    <div class="parallax"><img src="images/parallax2.jpg" class="opaci">
     </div>
+  </div>
 
-<!--Why? -->
+  <!--Why? -->
   <div class="section blue-grey darken-4">
     <div class="row container">
-
       <h2 class="header center blue-text text-accent-4">Why Participate?</h2>
-      <div id="icon_row">
+      <div id="icon_row" class="center">
         <i id="adb_icon" class="white-text large material-icons">adb</i>
         <img id="tshirt_icon" src="images/tshirt.png" />
         <i id="group_icon" class="white-text large material-icons">group</i>
         <i id="gift_icon" class="white-text large material-icons">card_giftcard</i>
       </div>
-      <p class="center white-text text-lighten-3 container posi5">Whether you are a mentor or a student, participating in DAWoC only proves beneficial to you.
-        As a student you will be able to learn alot of new open-source technologies and teach you how to work on software development projects in a bigger team.
-        It will also provide the students a gateway to the enormous open source community.
-        As for the Mentors they will be able to get alot of new additions to their projects.
-      And Finally there will be them T-Shirts and goodies which everyone looks forward to!</p>
-      </div>
+      <p class="center white-text text-lighten-3 container posi5">Whether you are a mentor or a student, participating in DAWoC only proves beneficial to you. As a student you will be able to learn alot of new open-source technologies and teach you how to work on software development projects in a bigger team.
+        It will also provide the students a gateway to the enormous open source community. As for the Mentors they will be able to get alot of new additions to their projects. And Finally there will be them T-Shirts and goodies which everyone looks forward
+        to!
+      </p>
     </div>
-
-<!--Mid Image 2 -->
-<div id="paraM" class="parallax-container">
-  <div class="parallax"><img src="images/parallax3.jpg" id="mid_image_2">
   </div>
-</div>
+
+  <!--Mid Image 2 -->
+  <div id="paraM" class="parallax-container">
+    <div class="parallax"><img src="images/parallax3.jpg" id="mid_image_2">
+    </div>
+  </div>
 
   <!-- TimeLine -->
   <div id="timeline" class="section blue-grey darken-4">
     <div class="container">
 
-      <div class="fire">
+      <div class="center fire">
         <h2 class="center-align blue-text text-accent-4">Timeline</h2>
-        <i id="timelineicon" class="white-text large material-icons">timeline</i>
+        <i class="white-text large material-icons">timeline</i>
       </div>
 
       <div class="timeline">
@@ -103,12 +103,11 @@
             </div>
             <div class="card-reveal">
               <span class="card-title"><i class="material-icons right">close</i></span>
-              <p >Here is some more information about this product that is only revealed once clicked on.</p>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
             </div>
           </div>
           <div class="timeline-badge white-text"><i class="material-icons">ac_unit</i></div>
         </div>
-
 
         <div class="timeline-event">
           <div class="card blue accent-4 timeline-content">
@@ -213,12 +212,12 @@
   </div>
   <!--Timeline Ends Here-->
 
-  <!-- PreFooter Content -->
-  <div class="section blue-grey darken-4">
-    <div class="container">
+  <!-- PreFooter Content
+      <div class="section blue-grey darken-4">
+      <div class="container">
       <a href="nothing"></a>
     </div>
-  </div>
+  </div>           -->
 
   <!-- Footer -->
   <footer class="page-footer blue accent-4">
@@ -249,4 +248,5 @@
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/effect.js"></script>
 </body>
+
 </html>

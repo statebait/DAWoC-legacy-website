@@ -1,7 +1,26 @@
+canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 #cool_effect {
   width: 100%;
   height: 740px;
 }
+
+/*
+#center_circle {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    opacity: 0.5;
+    background-color: #212121;
+    border-radius: 50%;
+}
+*/
 
 #icon_row {
   padding-top: 30px;
@@ -15,7 +34,7 @@
 }
 
 #adb_icon {
-  padding-left: 280px;
+  position: relative;
 }
 
 #group_icon {
@@ -31,15 +50,8 @@
   width: 100%;
 }
 
-#main_box {
-    position: absolute;
-    width: 450px;
-    height: 450px;
-    opacity: 0.5;
-    background-color: #212121;
-    margin-top: 80px;
-    margin-left: 537px;
-    border-radius: 50%;
+#tran_circle {
+  position: absolute;
 }
 
 #paraM {
@@ -64,25 +76,12 @@
   padding-left: 10px;
 }
 
-
-#timelineicon {
-  padding-left: 485px;
-}
-
-.blackbox {
-  position: absolute;
-  width: auto;
-  height: 500px;
-  opacity: 0.30;
-  background-color: black;
-}
-
 .fire {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.parallax-container{
+.parallax-container {
   height: 740px;
 }
 
@@ -103,12 +102,12 @@
   font-size: 20px;
 }
 
-.posi3 {
+#posi3 {
   text-decoration: bold;
   font-size: 15px;
 }
 
-.posi2 {
+#posi2 {
   text-decoration: bold;
   font-size: 25px;
 }
@@ -209,10 +208,4 @@
   .timeline .timeline-badge {
     left: 0;
   }
-}
-
-canvas{
-  position: absolute;
-  width: 100%; height: 100%;
-  top: 0; right: 0; bottom: 0; left: 0;
 }
