@@ -58,6 +58,8 @@ canvas {
   height: 500px;
 }
 
+/* Footer CSS */
+
 #google_plus {
   height: 35px;
   width: 35px;
@@ -75,6 +77,8 @@ canvas {
 #twitter_parent {
   padding-left: 10px;
 }
+
+/* Footer CSS ends */
 
 .fire {
   padding-top: 30px;
