@@ -103,4 +103,35 @@ form {
   padding-left: 10px;
 }
 
+@media only screen and (max-width: 500px) {
+      .form-wrapper {
+    max-width: 90vw;
+    min-height:95vh;
+  }
+  h1 {
+    text-align: center;
+    padding: 2vh 0;
+    font-size: 25px;
+  }
+  .form-footer {
+    font-size: 15px;
+    padding-bottom: 1vw;
+    text-align: center;
+  }
+  .form-item {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    width: 100%;
+  }
+  .form-item input {
+    font-size: 15px;
+    height: 30px;
+  }
+   .button-panel .button {
+    height: 10vw;
+    font-size: 25px;
+    width: 60%;
+  }
+}
+
    
