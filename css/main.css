@@ -11,6 +11,10 @@ canvas {
   height: 740px;
 }
 
+#register_btn{
+  margin-top: 30px;
+}
+
 /*
 #center_circle {
     position: absolute;
@@ -54,10 +58,6 @@ canvas {
   position: absolute;
 }
 
-#paraM {
-  height: 500px;
-}
-
 /* Footer CSS */
 
 #google_plus {
@@ -80,13 +80,37 @@ canvas {
 
 /* Footer CSS ends */
 
-.fire {
-  padding-top: 30px;
-  padding-bottom: 30px;
+#paraM {
+  height: 500px;
 }
 
 .parallax-container {
   height: 740px;
+}
+
+
+.osftw {
+  padding-top: 150px;
+  text-decoration: bold;
+  font-size: 90px;
+  text-shadow: 1px 1px 4px #212121;
+}
+
+@media (max-width: 600px) {
+  #paraM {
+    height: 400px;
+  }
+  .parallax-container {
+    height: 500px;
+  }
+  .osftw {
+    font-size: 50px;
+  }
+}
+
+.fire {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .opaci {
@@ -95,25 +119,8 @@ canvas {
   width: 100%;
 }
 
-.posi4 {
-  padding-top: 150px;
-  text-decoration: bold;
-  font-size: 90px;
-  text-shadow: 1px 1px 4px #212121;
-}
-
 .posi5 {
   font-size: 20px;
-}
-
-#posi3 {
-  text-decoration: bold;
-  font-size: 15px;
-}
-
-#posi2 {
-  text-decoration: bold;
-  font-size: 25px;
 }
 
 .posi {
@@ -121,6 +128,30 @@ canvas {
   text-decoration: bold;
   font-size: 110px;
   text-shadow: 1px 1px 4px #212121;
+}
+
+.posi2 {
+  text-decoration: bold;
+  font-size: 15px;
+}
+
+.posi1 {
+  text-decoration: bold;
+  font-size: 25px;
+}
+
+@media (max-width:600px){
+  .posi {
+    font-size: 65px;
+  }
+  .posi2 {
+    text-decoration: bold;
+    font-size: 10px;
+  }
+  .posi1 {
+    text-decoration: bold;
+    font-size: 20px;
+  }
 }
 
 .timeline {
