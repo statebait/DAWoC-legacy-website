@@ -19,11 +19,22 @@
 
 <body>
 
-  <canvas id="cool_effect" class="hide-on-med-and-down"></canvas>
-
   <div id="home" class="parallax-container">
 
-    <div class="navbar-fixed">
+    <!-- Graphic Effect -->
+    <canvas id="cool_effect" class="hide-on-med-and-down"></canvas>
+
+    <!-- SideNav Bar -->
+    <ul id="slide-out" class="hide-on-med-and-up blue-grey darken-4 side-nav">
+      <li><a href="#home" class="white-text">Home</a></li>
+      <li><a href="#timeline" class="white-text">Timeline</a></li>
+      <li><a href="register.html" target="_blank" class="white-text">Register</a></li>
+      <li><a href="guidelines.html" target="_blank" class="white-text">Guidelines</a></li>
+    </ul>
+    <div class="hide-on-med-and-up" id="slider"><a href="#" data-activates="slide-out" class="button-collapse"><i class="white-text material-icons">menu</i></a></div>
+
+    <!-- Main Nav Bar -->
+    <div class="hide-on-small-only navbar-fixed">
       <nav class="transparent z-depth-0">
         <div class="nav-wrapper">
           <ul id="nav-mobile" class="right">
@@ -36,10 +47,10 @@
       </nav>
     </div>
 
-    <div id="circle_attempt" class="container animated zoomIn">
+    <div class="container">
       <h1 class="center header white-text animated zoomIn posi">DAWoC</h1>
-      <p class="center-align white-text animated slideInUp posi1">DA-IICT Winter of Code</p>
-      <p class="center-align white-text animated slideInUp posi2">organised by Google Developer Student Club DA-IICT</p>
+      <p class="center-align white-text animated bounceInUp posi1">DA-IICT Winter of Code</p>
+      <p class="center-align white-text animated bounceInDown posi2">organised by Google Developer Student Club DA-IICT</p>
     </div>
 
     <!-- REGISTER button (will put on later)  <div class="container center">
@@ -105,7 +116,7 @@
               <span class="card-title activator white-text text-darken-4">DAWoC is Announced!<i class="material-icons right">more_vert</i></span>
               <p class="white-text">20th November</p>
             </div>
-            <div class="card-reveal collapsible">
+            <div class="card-reveal">
               <span class="card-title"><i class="material-icons right">close</i></span>
               <p>DAWoC mail is sent to everyone. Let the Hype begin!</p>
             </div>
@@ -119,7 +130,7 @@
               <span class="card-title activator white-text text-darken-4">Call for Mentors<i class="material-icons right">more_vert</i></span>
               <p class="white-text">5th - 29th December</p>
             </div>
-            <div class="card-reveal collapsible">
+            <div class="card-reveal">
               <span class="card-title"><i class="material-icons right">close</i></span>
               <p>Mentors will start pooling in with their respective open-source projects for contributions.</p>
             </div>
@@ -133,7 +144,7 @@
               <span class="card-title activator white-text text-darken-4">Finalizing of Mentors & Projects<i class="material-icons right">more_vert</i></span>
               <p class="white-text">30th December - 4th January</p>
             </div>
-            <div class="card-reveal collapsible">
+            <div class="card-reveal">
               <span class="card-title"><i class="material-icons right">close</i></span>
               <p>Mentors will be filtered out if necessary.</p>
             </div>
@@ -147,7 +158,7 @@
               <span class="card-title activator white-text text-darken-4">Student Registration Begins<i class="material-icons right">more_vert</i></span>
               <p class="white-text">4th - 11th January</p>
             </div>
-            <div class="card-reveal collapsible">
+            <div class="card-reveal">
               <span class="card-title"><i class="material-icons right">close</i></span>
               <p>Click <a href="register.html" target="_blank">Here</a> to register</p>
             </div>
@@ -161,9 +172,9 @@
               <span class="card-title activator white-text text-darken-4">Let the Coding Begin<i class="material-icons right">more_vert</i></span>
               <p class="white-text">12th January</p>
             </div>
-            <div class="card-reveal collapsible">
+            <div class="card-reveal">
               <span class="card-title"><i class="material-icons right">close</i></span>
-              <p>Code until your keyboard breaks. joke.</p>
+              <p>Code until your keyboard breaks.</p>
             </div>
           </div>
           <div class="timeline-badge white-text"><i class="material-icons">layers</i></div>
@@ -175,9 +186,9 @@
               <span class="card-title activator white-text text-darken-4">End of the coding phase<i class="material-icons right">more_vert</i></span>
               <p class="white-text">15th February</p>
             </div>
-            <div class="card-reveal collapsible">
+            <div class="card-reveal">
               <span class="card-title"><i class="material-icons right">close</i></span>
-              <p>Hopefully your keyboard is not broken :P </p>
+              <p>Hopefully your keyboard is not broken.</p>
             </div>
           </div>
           <div class="timeline-badge white-text"><i class="material-icons">layers_clear</i></div>
@@ -189,7 +200,7 @@
               <span class="card-title activator white-text text-darken-4">Evaluation period<i class="material-icons right">more_vert</i></span>
               <p class="white-text">16th - 19th February</p>
             </div>
-            <div class="card-reveal collapsible">
+            <div class="card-reveal">
               <span class="card-title"><i class="material-icons right">close</i></span>
               <p>Boring stuff. Move On.</p>
             </div>
@@ -203,9 +214,9 @@
               <span class="card-title activator white-text text-darken-4">Results!<i class="material-icons right">more_vert</i></span>
               <p class="white-text">20th February</p>
             </div>
-            <div class="card-reveal collapsible">
+            <div class="card-reveal">
               <span class="card-title"><i class="material-icons right">close</i></span>
-              <p>Finally the results, Top contributors will get their juciy prizes.</p>
+              <p>Finally the results, Top contributors will get their exciting goodies.</p>
             </div>
           </div>
           <div class="timeline-badge white-text"><i class="material-icons">card_giftcard</i></div>

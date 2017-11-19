@@ -1,7 +1,34 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
-@import url(https://weloveiconfonts.com/api/?family=fontawesome);
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
+}
+
+/* Temporary*/
+
+#temp_ {
+  padding-top: 90px;
+  font-size: 50px;
+}
+
+#temp__ {
+  height: 600px;
+}
+
+.ico {
+  padding-left: 10px;
+}
+
+.temp {
+  font-size: 30px;
+  color: white;
+}
+
+.temp1 {
+  font-size: 30px;
+  color: white;
+}
+
+.temp1:hover {
+  color: #2962ff;
 }
 
 /* Simple Reset */
@@ -10,14 +37,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/* body */
-
-body {
-  background: #FFFFFF;
-  color: #2980b9;
-  font: 400 87.5%/1.5em 'Open Sans', sans-serif;
 }
 
 /* Form Layout */
@@ -137,6 +156,7 @@ form {
 }
 
 /* Footer CSS */
+
 #google_plus {
   height: 35px;
   width: 35px;

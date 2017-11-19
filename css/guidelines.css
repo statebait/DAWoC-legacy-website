@@ -1,0 +1,50 @@
+/* Footer CSS */
+
+#google_plus {
+  height: 35px;
+  width: 35px;
+}
+
+#google_plus_parent {
+  padding-left: 20px;
+}
+
+#twitter {
+  height: 45px;
+  width: 45px;
+}
+
+#twitter_parent {
+  padding-left: 10px;
+}
+
+/* Footer CSS ends */
+
+/* Temporary*/
+
+#temp_ {
+  padding-top: 90px;
+  font-size: 50px;
+}
+
+#temp__ {
+  height: 600px;
+}
+
+.ico {
+  padding-left: 10px;
+}
+
+.temp {
+  font-size: 30px;
+  color: white;
+}
+
+.temp1 {
+  font-size: 30px;
+  color: white;
+}
+
+.temp1:hover {
+  color: #2962ff;
+}

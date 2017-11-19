@@ -6,20 +6,17 @@ canvas {
   left: 0;
 }
 
+#home {
+  background: rgba(0, 0, 0, 0.5);
+}
+
 #cool_effect {
   width: 100%;
   height: 740px;
 }
 
-#register_btn{
+#register_btn {
   margin-top: 30px;
-}
-
-#circle_attempt {
-  width: 470px;
-  height: 470px;
-  background: rgba(0,0,0,.4);
-  border-radius: 50%;
 }
 
 #icon_row {
@@ -84,11 +81,14 @@ canvas {
   height: 500px;
 }
 
+#slider {
+  margin-top: 30px;
+  margin-left: 30px;
+}
 
 .parallax-container {
   height: 740px;
 }
-
 
 .osftw {
   padding-top: 150px;
@@ -132,7 +132,6 @@ canvas {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 100px;
-  text-shadow: 1px 1px 4px #212121;
 }
 
 .posi2 {
@@ -145,7 +144,7 @@ canvas {
   font-size: 25px;
 }
 
-@media (max-width:600px){
+@media (max-width:600px) {
   .posi {
     padding-top: 100px;
     font-size: 65px;
@@ -161,7 +160,7 @@ canvas {
   #circle_attempt {
     width: 350px;
     height: 350px;
-    background: rgba(0,0,0,.4);
+    background: rgba(0, 0, 0, .4);
     border-radius: 50%;
   }
 }

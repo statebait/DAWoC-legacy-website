@@ -1,8 +1,8 @@
-$(document).ready(function(){
+$(document).ready(function() {
   $('.parallax').parallax();
 });
 
-$(document).ready(function(){
-    $('.collapsible').collapsible();
-  });
-        
+$(".button-collapse").sideNav({
+  menuWidth: 150,
+  draggable: true,
+});
