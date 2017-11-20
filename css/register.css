@@ -5,8 +5,8 @@
 /* Temporary*/
 
 #temp_ {
-  padding-top: 90px;
-  font-size: 50px;
+  padding-top: 50px;
+  font-size: 40px;
 }
 
 #temp__ {
@@ -29,6 +29,21 @@
 
 .temp1:hover {
   color: #2962ff;
+}
+
+#doc {
+  width: 850px;
+  height: 600px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  #doc {
+    width: 380px;
+    height: 500px;
+    margin-bottom: 50px;
+  }
 }
 
 /* Simple Reset */
@@ -173,4 +188,9 @@ form {
 
 #twitter_parent {
   padding-left: 10px;
+}
+
+#slider {
+  margin-top: 30px;
+  margin-left: 30px;
 }
