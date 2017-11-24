@@ -3,12 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
   <title>DA-IICT Winter of Code</title>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <!--Import materialize.css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link type="text/css" rel="stylesheet" href="css/main.css" />
   <link type="text/css" rel="stylesheet" href="css/animate.css" />
 
@@ -19,13 +21,14 @@
 
 <body>
 
-  <div id="home" class="parallax-container">
+  <div id="home" class="parallax-container z-depth-3">
 
     <!-- Graphic Effect -->
     <canvas id="cool_effect" class="hide-on-med-and-down"></canvas>
 
     <!-- SideNav Bar -->
     <ul id="slide-out" class="hide-on-med-and-up blue-grey darken-4 side-nav">
+      <a href="#" class="center brand-logo"><img id="mainlogo" src="images/dawoclogo.png" /></a>
       <li><a href="#home" class="white-text">Home</a></li>
       <li><a href="#timeline" class="white-text">Timeline</a></li>
       <li><a href="register.html" target="_blank" class="white-text">Register</a></li>
@@ -37,6 +40,7 @@
     <div class="hide-on-small-only navbar-fixed">
       <nav class="transparent z-depth-0">
         <div class="nav-wrapper">
+          <a href="#" class="animated zoomIn left brand-logo"><img id="mainlogo" src="images/dawoclogo.png" /></a>
           <ul id="nav-mobile" class="right">
             <li><a class="animated bounceIn" href="#home">Home</a></li>
             <li><a class="animated bounceInRight" href="#timeline">Timeline</a></li>
@@ -53,16 +57,17 @@
       <p class="center-align white-text animated bounceInDown posi2">organised by Google Developer Student Club DA-IICT</p>
     </div>
 
-    <!-- REGISTER button (will put on later)  <div class="container center">
-      <a id="register_btn" class="animated zoomIn waves-effect waves btn blue accent-4" href="register.html" target="_blank">REGISTER</a>
-    </div> -->
+    <!-- REGISTER button -->
+    <div class="container center">
+      <a id="register_btn" class="animated jackInTheBox btn" href="register.html" target="_blank">REGISTER</a>
+    </div>
 
     <div class="parallax"><img src="images/parallax1.jpg" class="opaci"></div>
 
   </div>
 
   <!--About -->
-  <div class="section blue-grey darken-4">
+  <div class="section blue-grey darken-4 z-depth-3">
     <div class="row container">
       <h2 class="header center blue-text text-accent-4">About</h2>
       <p class="center white-text text-lighten-3 container posi5">DAWoC is a month long programme exculsively for students of DA-IICT where students contribute to a variety of Open-Source Projects under the guidance of experienced Mentors. The program encourages students to get engaged with open source and also
@@ -71,14 +76,14 @@
   </div>
 
   <!--Mid Image -->
-  <div id="paraM" class="parallax-container">
+  <div id="paraM" class="parallax-container z-depth-3">
     <h1 id="#open" class="header white-text center osftw">Open Source For The Win!</h1>
     <div class="parallax"><img src="images/parallax2.jpg" class="opaci">
     </div>
   </div>
 
   <!--Why? -->
-  <div class="section blue-grey darken-4">
+  <div class="section blue-grey darken-4 z-depth-3">
     <div class="row container">
       <h2 class="header center blue-text text-accent-4">Why Participate?</h2>
       <div id="icon_row" class="center">
@@ -95,7 +100,7 @@
   </div>
 
   <!--Mid Image 2 -->
-  <div id="paraM2" class="parallax-container">
+  <div id="paraM2" class="parallax-container z-depth-3">
     <div class="parallax"><img src="images/parallax3.png" id="mid_image_2">
     </div>
   </div>
@@ -110,11 +115,11 @@
       </div>
 
       <div class="timeline">
-        <div id="introduction" class="timeline-event">
+        <div class="timeline-event">
           <div class="card blue accent-4 timeline-content">
             <div class="card-content">
               <span class="card-title activator white-text text-darken-4">DAWoC is Announced!<i class="material-icons right">more_vert</i></span>
-              <p class="white-text">21st November</p>
+              <p class="white-text">25th November</p>
             </div>
             <div class="card-reveal">
               <span class="card-title"><i class="material-icons right">close</i></span>
@@ -128,7 +133,7 @@
           <div class="card blue accent-4 timeline-content">
             <div class="card-content">
               <span class="card-title activator white-text text-darken-4">Call for Mentors<i class="material-icons right">more_vert</i></span>
-              <p class="white-text">5th - 29th December</p>
+              <p class="white-text">4th - 29th December</p>
             </div>
             <div class="card-reveal">
               <span class="card-title"><i class="material-icons right">close</i></span>
@@ -225,6 +230,7 @@
       </div>
     </div>
   </div>
+  </ul>
   <!--Timeline Ends Here-->
 
   <!-- PreFooter Content
@@ -244,9 +250,11 @@
         </div>
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Links</h5>
-          <a href="https://github.com/google-developers-group-daiict" target="_blank"><img src="images/GitHub-Mark-32px.png"/></a>
-          <a id="google_plus_parent" href="https://plus.google.com/+Gdgdaiict" target="_blank"><img id="google_plus" src="images/google-plus.png"/></a>
-          <a id="twitter_parent" href="https://twitter.com/GDGDAIICT" target="_blank"><img id="twitter" src="images/Twitter_Logo_WhiteOnImage.png"/></a>
+          <a href="https://github.com/google-developers-group-daiict" target="_blank"><i class="fa fa-github white-text fa-2x" aria-hidden="true"></i></a>
+          <a id="google_plus_parent" href="https://plus.google.com/+Gdgdaiict" target="_blank"><i class="fa fa-google-plus white-text fa-2x" aria-hidden="true"></i></a>
+          <a id="twitter_parent" href="https://twitter.com/GDGDAIICT" target="_blank"><i class="fa fa-twitter white-text fa-2x" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://m.facebook.com/groups/1656577537738676" id="fb_parent"><i class="white-text fa fa-facebook-official fa-2x"></i></a>
+          <a href="mailto:daiict.woc@gmail.com" id="mail_parent"><i class="fa fa-envelope white-text fa-2x" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>

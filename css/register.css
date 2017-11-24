@@ -172,23 +172,23 @@ form {
 
 /* Footer CSS */
 
-#google_plus {
-  height: 35px;
-  width: 35px;
+#fb_parent {
+  padding-left: 15px;
 }
 
 #google_plus_parent {
-  padding-left: 20px;
-}
-
-#twitter {
-  height: 45px;
-  width: 45px;
+  padding-left: 15px;
 }
 
 #twitter_parent {
   padding-left: 10px;
 }
+
+#mail_parent {
+  padding-left: 15px;
+}
+
+/* Footer CSS ends */
 
 #slider {
   margin-top: 30px;

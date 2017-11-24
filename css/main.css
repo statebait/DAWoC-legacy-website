@@ -6,6 +6,13 @@ canvas {
   left: 0;
 }
 
+#mainlogo {
+  width: auto;
+  padding-top: 5px;
+  padding-left: 30px;
+  height: 40px;
+}
+
 #home {
   background: rgba(0, 0, 0, 0.5);
 }
@@ -17,6 +24,13 @@ canvas {
 
 #register_btn {
   margin-top: 30px;
+  color: black;
+  background-color: white;
+}
+
+#register_btn:hover {
+  color: white;
+  background-color: blue;
 }
 
 #icon_row {
@@ -53,22 +67,20 @@ canvas {
 
 /* Footer CSS */
 
-#google_plus {
-  height: 35px;
-  width: 35px;
+#fb_parent {
+  padding-left: 15px;
 }
 
 #google_plus_parent {
-  padding-left: 20px;
-}
-
-#twitter {
-  height: 45px;
-  width: 45px;
+  padding-left: 15px;
 }
 
 #twitter_parent {
   padding-left: 10px;
+}
+
+#mail_parent {
+  padding-left: 15px;
 }
 
 /* Footer CSS ends */
