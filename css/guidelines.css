@@ -1,21 +1,26 @@
+#mainlogo {
+  width: auto;
+  padding-top: 5px;
+  padding-left: 30px;
+  height: 40px;
+}
+
 /* Footer CSS */
 
-#google_plus {
-  height: 35px;
-  width: 35px;
+#fb_parent {
+  padding-left: 15px;
 }
 
 #google_plus_parent {
-  padding-left: 20px;
-}
-
-#twitter {
-  height: 45px;
-  width: 45px;
+  padding-left: 15px;
 }
 
 #twitter_parent {
   padding-left: 10px;
+}
+
+#mail_parent {
+  padding-left: 15px;
 }
 
 /* Footer CSS ends */
