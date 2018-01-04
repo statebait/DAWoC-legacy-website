@@ -153,8 +153,11 @@ canvas {
 }
 
 @media (max-width:600px) {
+  .regis {
+    font-size: 20px
+  }
   .posi {
-    padding-top: 100px;
+    padding-top: 50px;
     font-size: 65px;
   }
   .posi2 {
