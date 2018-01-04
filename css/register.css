@@ -2,6 +2,17 @@
   font-family: 'FontAwesome', sans-serif;
 }
 
+#register_btn {
+  margin-top: 10px;
+  color: black;
+  background-color: white;
+}
+
+#register_btn:hover {
+  color: white;
+  background-color: blue;
+}
+
 /* Temporary*/
 
 #temp_ {
